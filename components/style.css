@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.container ul{
+    display: flex;
+    margin-right: 50px;
+}
+
+.container li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.container a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+a:hover{
+    font-size: 2rem;
+    transition: ease-in-out 0.5s;
+}
+
+.container h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+.container span{
+    color: yellow;
+}
+
+.colums{
+    display: flex;
+    background-color: aqua;
+}
+
+.col1{
+    flex-basis: 50%;
+}
+
+.col2{
+    flex-basis: calc(55%-100%);
+    background-color: grey;
+}
+
+.col2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
