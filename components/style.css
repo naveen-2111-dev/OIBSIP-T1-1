@@ -8,6 +8,10 @@ body{
     background-color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -92,5 +96,69 @@ a:hover{
 
 .about-container{
     display: flex;
+    justify-content: center;
     height: 100vh;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-col1{
+    flex-basis: 30%;
+    margin-right: 2px;
+}
+
+.about-col1 img{
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.about-col2{
+    flex-basis: 50%;
+    margin-top: 7rem;
+}
+
+.about-col2 h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-col2 span{
+    font-size: 3rem;
+    color: yellow;
+}
+
+.about-col2 p{
+    margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+}
+
+.s1,.s2,.s3{
+    background-color: yellow;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px yellow;
+    padding: 20px;
+}
+
+.s1 h1,.s2 h1,.s3 h1{
+    color: black;
+}
+
+.s1 p,.s2 p,.s3 p{
+    color: black;
+    text-transform: capitalize;
+}
+
+.s1 i,.s2 i,.s3 i{
+    color: black;
+    font-weight: 900;
 }
