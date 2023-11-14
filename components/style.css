@@ -162,3 +162,40 @@ a:hover{
     color: black;
     font-weight: 900;
 }
+
+.row-1 h1{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    padding: 35px;
+}
+
+.row-1 span{
+    font-size: 3rem;
+    color: yellow;
+}
+
+.expe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-1 img{
+    height: 10rem;
+}
+
+.exp{
+    height: 100vh;
+}
+
+.expe h5{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.img1 span{
+    font-size: 1.3rem;
+}
