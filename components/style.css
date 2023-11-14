@@ -288,16 +288,55 @@ input[type= submit]:hover{
 .apps i{
     margin-right: 13px;
     font-size: 2rem;
+    padding: 7px;
 }
 
 .apps i:hover{
     color: yellow;
     font-size: 3rem;
-    transition: 0.5s ease-in-out;
+    transition: .6s ease-in-out;
+    position: absolute;
+    background-color: black;
 }
 
 .copyright p{
     padding: 15px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.react{
+    animation: spinner infinite 10s linear;
+}
+
+@keyframes spinner{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+button{
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   margin-top: 5rem;
+   outline: none;
+   background-color: transparent;
+   padding: 10px;
+   border: 2px solid yellow;
+   border-radius: 5px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 1rem;
+   text-transform: capitalize;
+   font-weight: lighter;
+   box-shadow: 2px 2px 12px yellow;
+}
+
+button:hover{
+    padding: 15px;
+    transition: ease-in-out 0.5s;
 }
